@@ -51,9 +51,9 @@ function Events() {
       className="py-20 px-8 bg-gradient-to-b from-purple-50 to-white"
     >
 
-      <h2 className="text-4xl font-bold text-center text-primary mb-12">
-        Upcoming Events
-      </h2>
+      <h1 className="text-4xl font-bold text-center text-primary mb-12">
+        Events
+      </h1>
 
       <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
