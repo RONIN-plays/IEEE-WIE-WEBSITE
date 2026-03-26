@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Full-height side purple hues */
+body {
+  margin: 0;
+  background-color: white;
+  background-image:
+    linear-gradient(to right, rgba(106,13,173,0.35), rgba(106,13,173,0)),
+    linear-gradient(to left, rgba(106,13,173,0.35), rgba(106,13,173,0));
+  background-repeat: no-repeat;
+  background-size: 120px 100%, 120px 100%; /* width of side hue */
+  background-position: left top, right top;
+}
