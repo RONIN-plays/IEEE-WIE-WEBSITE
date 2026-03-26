@@ -76,9 +76,9 @@ function Team() {
         Our Team
       </h2>
 
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="w-full px-4 md:px-0">
         {/* Faculty Advisor Row - Centered */}
-        <div className="flex justify-center mb-16">
+        <div className="flex justify-center mb-16 px-4">
           <div className="w-full max-w-sm md:max-w-md">
             <OfficerCard
               name={officers[0].name}
@@ -88,23 +88,9 @@ function Team() {
           </div>
         </div>
 
-        {/* Chair & Vice Chair Row - Side by Side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 max-w-5xl mx-auto mb-16">
-          <OfficerCard
-            name={officers[1].name}
-            role={officers[1].role}
-            image={officers[1].image}
-          />
-          <OfficerCard
-            name={officers[2].name}
-            role={officers[2].role}
-            image={officers[2].image}
-          />
-        </div>
-
-        {/* Others Row - Standard Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 lg:gap-16">
-          {officers.slice(3).map((officer, index) => (
+        {/* Everyone Else Row - 2 Columns */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 w-full max-w-[1400px] mx-auto px-4">
+          {officers.slice(1).map((officer, index) => (
             <OfficerCard
               key={index}
               name={officer.name}
