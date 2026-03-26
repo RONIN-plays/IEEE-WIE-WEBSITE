@@ -68,7 +68,7 @@ function Team() {
     <section
       id="team"
       data-aos="fade-up"
-      className="py-20 px-8 bg-cover bg-center bg-no-repeat"
+      className="py-20 px-2 md:px-8 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${teamBg})` }}
     >
 
@@ -89,7 +89,7 @@ function Team() {
         </div>
 
         {/* Everyone Else Row - 2 Columns */}
-        <div className="grid grid-cols-2 gap-4 md:gap-12 lg:gap-16 w-full max-w-[1400px] mx-auto px-4">
+        <div className="grid grid-cols-2 gap-2 md:gap-12 lg:gap-16 w-full max-w-[1400px] mx-auto px-1 md:px-4">
           {officers.slice(1).map((officer, index) => (
             <OfficerCard
               key={index}
