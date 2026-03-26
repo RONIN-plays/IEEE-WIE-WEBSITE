@@ -76,7 +76,7 @@ function Team() {
         Our Team
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-10 max-w-6xl mx-auto px-4 md:px-0">
 
         {officers.map((officer, index) => (
           <OfficerCard
