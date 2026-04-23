@@ -8,10 +8,38 @@ import iementech1Img from "../assets/events/iementech-2025-1.png"
 import iementech2Img from "../assets/events/iementech-2025-2.png"
 import iementech3Img from "../assets/events/iementech-2025-3.png"
 import girlChildImg from "../assets/events/national-girl-child-day-2025.png"
+import extemporeImg from "../assets/events/extempore-2026-01-30.png"
+import iementech2026Img from "../assets/events/iementech-2026-02-06.png"
+import womensDayImg from "../assets/events/womens-day-2026-03-12.png"
+import awardsImg from "../assets/events/womanhood-awards-2026-03-16.png"
 
 function Events() {
 
   const events = [
+    {
+      title: "Celebrating Womanhood Awards Ceremony 2026",
+      date: "16th March 2026",
+      description: "The IEM Inner Wheel Club and IEEE WIE Affinity Group organized a ceremony to honor eminent women across various fields. Awards including the Ashapurna Devi Literary Legacy Award and Kadambini Ganguly Award were presented to distinguished personalities, recognizing their remarkable leadership and impact.",
+      image: awardsImg
+    },
+    {
+      title: "Mindful moments; Awakening Inner strength: Women’s Day celebration",
+      date: "12th March 2026",
+      description: "The IEEE WIE Affinity Group organized a Women's Day celebration focused on unity, empowerment, and student wellness. The session encouraged interaction and collaboration among engineering students, highlighting the importance of self-care and a balanced lifestyle alongside academic excellence.",
+      image: womensDayImg
+    },
+    {
+      title: "Poster paper presentation at IEMENTech 2026",
+      date: "6th-8th February 2026",
+      description: "The IEEE WIE Affinity Group of IEM organized a Poster Paper Session at the 9th International Conference on Electronics, Materials Engineering and Nano-Technology (IEMENTech 2026). Held at STPI, Kolkata, 60 posters were presented by researchers, showcasing innovative work and fostering knowledge exchange.",
+      image: iementech2026Img
+    },
+    {
+      title: "Extempore Competition 2026 at Kolkata Book Fair",
+      date: "30th January 2026",
+      description: "The IEEE WIE Affinity group of IEM organized an Extempore Competition at the Kolkata International Book Fair to foster spontaneous thinking and effective communication. Participants tackled topics ranging from technology to social issues, showcasing their articulation skills. The event concluded with the distribution of prizes and tokens of appreciation, including books, cups, and pens.",
+      image: extemporeImg
+    },
     {
       title: "Elevate 2k25",
       date: "18-20 July 2025",
